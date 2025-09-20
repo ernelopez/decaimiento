@@ -3,7 +3,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
-st.title("Simulación de decaimiento de C-14 (Proceso de Poisson)")
+st.title("Simulación de decaimiento de C-14")
 
 # entradas del usuario
 N0 = st.number_input("Número de átomos iniciales:", min_value=1, value=10, step=1)
